@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webco Corp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .hero-section {
+            background-image: url(Assets/Hero.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: center;
+            color: white;
+            padding: 10rem 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="Assets/Logo.png" height="50px" alt="logo">
+                <a href="#" class="navbar-brand">Webco corp</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-underline ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Pricing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">item 1</a></li>
+                            <li><a href="#" class="dropdown-item">item 2</a></li>
+                            <li><a href="#" class="dropdown-item">item 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light" data-bs-toggle="offcanvas" href="#sidebar1"
+         role="button" aria-controls="sidebar1">Open Sidebar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-section text-center">
+        <h1 class="display-1 fw-bold mb-3">Build Great Things.</h1>
+        <p class="lead mb-3">
+            The modern, efficient, and responsive framework for your next web project. Get started today
+        </p>
+        <a href="" class="btn btn-light btn-lg me-2"> Expore Features</a>
+        <a href="" class="btn btn-outline-light btn-lg"> watch Demo</a>
+    </section>
+
+    <!-- Features -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center display-4 mb-5">Powerfull Features</h2>
+
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col ">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Feature 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eaque
+                                cupiditate minima pariatur iste officia autem quam blanditiis qui ratione ipsum, ducimus
+                                accusamus quis iusto exercitationem nisi, dolorum explicabo similique!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Feature 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eaque
+                                cupiditate minima pariatur iste officia autem quam blanditiis qui ratione ipsum, ducimus
+                                accusamus quis iusto exercitationem nisi, dolorum explicabo similique!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Feature 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero eaque
+                                cupiditate minima pariatur iste officia autem quam blanditiis qui ratione ipsum, ducimus
+                                accusamus quis iusto exercitationem nisi, dolorum explicabo similique!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section class="bg-dark text-white p-5">
+        <form class="d-flex container w-50">
+            <input type="email" class="form-control">
+            <input type="button" value="Submit" class="btn btn-primary mx-3">
+        </form>
+    </section>
+
+    <!-- accordion -->
+    <section>
+        <div class="accordion w-50 m-auto my-5" id="accordion-1">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Acc1" aria-expanded="true" aria-controls="Acc1">
+                        Question number #1
+                    </button>
+                </h2>
+                <div id="Acc1" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut porro ducimus architecto qui
+                        dolores fugit perspiciatis. A quae vel ut ducimus at fugiat, ipsam placeat incidunt perferendis
+                        velit soluta culpa, repellendus, perspiciatis quis porro facilis sint ipsa? Distinctio animi
+                        reiciendis error et soluta veniam unde vel debitis, sint corrupti!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Acc2" aria-expanded="true" aria-controls="Acc2">
+                        Question number #2
+                    </button>
+                </h2>
+                <div id="Acc2" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut porro ducimus architecto qui
+                        dolores fugit perspiciatis. A quae vel ut ducimus at fugiat, ipsam placeat incidunt perferendis
+                        velit soluta culpa, repellendus, perspiciatis quis porro facilis sint ipsa? Distinctio animi
+                        reiciendis error et soluta veniam unde vel debitis, sint corrupti!
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Acc3" aria-expanded="true" aria-controls="Acc3">
+                        Question number #3
+                    </button>
+                </h2>
+                <div id="Acc3" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut porro ducimus architecto qui
+                        dolores fugit perspiciatis. A quae vel ut ducimus at fugiat, ipsam placeat incidunt perferendis
+                        velit soluta culpa, repellendus, perspiciatis quis porro facilis sint ipsa? Distinctio animi
+                        reiciendis error et soluta veniam unde vel debitis, sint corrupti!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Img Cards -->
+    <section class=" p-5 container text-center d-flex">
+        <div class="card m-auto" style="width: 18rem;">
+            <img src="Assets/card-img.png" alt="card-img" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title <span class="badge text-bg-success">Best</span></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nemo neque
+                    ipsam facere. Natus voluptates placeat, fuga perferendis corporis sint!</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card m-auto" style="width: 18rem;">
+            <img src="Assets/card-img.png" alt="card-img" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title <span class="badge text-bg-warning">New</span></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nemo neque
+                    ipsam facere. Natus voluptates placeat, fuga perferendis corporis sint!</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card m-auto" style="width: 18rem;">
+            <img src="Assets/card-img.png" alt="card-img" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nemo neque
+                    ipsam facere. Natus voluptates placeat, fuga perferendis corporis sint!</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar & Modal -->
+     <section class="text-center p-5">
+        
+        <!-- Sidebar btn -->
+        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#sidebar1"
+         role="button" aria-controls="sidebar1">Open Sidebar</a>
+
+         <!-- SideBar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar1" aria-labelledby="sidebarlabel1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="sidebarlabel1">Left SideBar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae esse? Quod molestiae tenetur dolores minima, quam nam nisi ad, explicabo fuga tempore asperiores odit molestias, accusamus voluptates laborum harum.
+                <a href="" class="btn btn-secondary">Click me!</a>
+            </div>
+        </div>
+
+        <!-- Modal btn -->
+         <button type="button" class="btn btn-primary"
+         data-bs-toggle="modal"
+         data-bs-target="#modalid"
+         > Open Modal</button>
+
+         
+
+     </section>
+
+     <!-- Modal -->
+         <div class="modal fade" id="modalid" data-bs-backdrop="static"
+         data-bs-keyboard="false" tabindex="-1" aria-labelledby="ModalLabelone" aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h1 class="modal-title fs-5">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, adipisci, dolorum similique pariatur architecto illum placeat dicta beatae neque in recusandae sed amet assumenda eos aut, tenetur cum non magnam?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <p class="mb-0"> &copy; 2025 Webco corp. All right resevced.</p>
+        </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+
+</html>
